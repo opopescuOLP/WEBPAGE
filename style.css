@@ -238,14 +238,14 @@ img {
 
 /* ========================== MEDIA BREAK POINTS =========================== */
 
-@media screen and (max-width: 305px) {
+@media screen and (max-width: 305px){
     .container{
-    margin-inline: 1rem;
-}
+        margin-inline: 1rem;
+    }
 
-.home__title {
-    font-size: 2rem;
-}
+    .home__title{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 376px) and (min-height:800px){
