@@ -30,7 +30,7 @@
     --z-fixed: 100;
 }
 
-* {
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -193,7 +193,7 @@ img {
     color: var(--title);
 }
 
-.home__description {
+.home__description{
     margin-top: 2.5rem;
 }
 
@@ -229,7 +229,7 @@ img {
 }
 
 .home__images img{
-    position:absolute;
+    position: absolute;
     max-width: initial;
     width: 600px;
     left: -7rem;
@@ -248,27 +248,27 @@ img {
     }
 }
 
-@media screen and (min-width: 376px) and (min-height:800px){
+@media screen and (min-width: 376px) and (min-height:800px) {
   .home__container {
     padding-top: 10rem;
   }
 
-  .home__images img {
+  .home__images img{
     width: 700px;
     left: -12rem;
   }
 }
 
 @media screen and (min-width: 480px){
-    .home__content {
+    .home__content{
         max-width: 305px;
     }
     
-    .home__bird-2 {
+    .home__bird-2{
         right: -3rem;
     }
     
-    .home__images img {
+    .home__images img{
         width: initial;
         left: 0;
     }
@@ -276,12 +276,12 @@ img {
 
 @media screen and (min-width: 1023px) {
     .nav {
-        height: calc(var(--header-height)+2rem);
+        height: calc(var(--header-height) + 2rem);
         column-gap: 4rem;
     }
 
     .nav__toggle,
-    .nav__close {
+    .nav__close{
         display: none;
     }
 
@@ -292,12 +292,12 @@ img {
         justify-content: space-between;
     }
 
-    .nav__list {
+    .nav__list{
         flex-direction: row;
         column-gap: 3rem;
     }
 
-    .nav__buttons {
+    .nav__buttons{
         flex-direction: row;
         column-gap: 3rem;
     }
@@ -315,14 +315,14 @@ img {
     }
 
     .home__subtitle {
-        font-size: var(--font-medium);
+        font-size: var(--medium-size);
     }
 
     .home__description{
        margin-bottom: 3rem; 
     }
 
-    .container{
+    .container {
         margin-inline: auto;
     }
 }    
